@@ -1,0 +1,59 @@
+/*Selector univerdal*/
+
+*{
+/*Color de fondo*/
+    background-color: turquoise;
+    /*Color de texto*/
+    /*color: red;*/
+}
+h1{
+    color: blue;
+    border: solid red;
+}
+h2{
+    color: aliceblue;
+}
+h3{
+color: black;
+}
+
+/*De clase*/
+
+.serif{
+    /*Tipografia*/
+    font-family: sans-serif;
+    /*Tamaño*/
+    font-size: x-large;
+    /*Peso*/
+    font-weight: 900;
+    /*Alineacion*/
+    text-align: center;
+}
+
+/*De id*/
+#rosa{
+    /*color*/
+  color: pink;
+}
+
+#link{
+    text-align: center;
+    font-style: oblique;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+
+    p{
+        color: yellow;
+    }
+  }
+
+  img, video{
+    width: 400px;
+    /*height: 400px:*/
+
+  }
